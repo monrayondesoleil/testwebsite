@@ -522,7 +522,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   displayWidth={"100%"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/professional_services/images/unsplash3UcQtXSvA88Jpg.jpg",
+                    src: "/plasmic/professional_services/images/_5F95259E8Be11Bfdfd78B3C7Df67Ad6Bjpg.jpg",
                     fullWidth: 1920,
                     fullHeight: 1280,
                     aspectRatio: undefined
