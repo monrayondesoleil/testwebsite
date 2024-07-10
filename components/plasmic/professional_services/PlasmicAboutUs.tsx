@@ -260,7 +260,7 @@ function PlasmicAboutUs__RenderFunc(props: {
                         displayMinWidth={"0"}
                         displayWidth={"200px"}
                         src={{
-                          src: "/plasmic/professional_services/images/woman31165871920Jpg.jpg",
+                          src: "/plasmic/professional_services/images/a272F690C03A20Ccd371A62C9Fe8205Cjpg.jpg",
                           fullWidth: 1920,
                           fullHeight: 1279,
                           aspectRatio: undefined

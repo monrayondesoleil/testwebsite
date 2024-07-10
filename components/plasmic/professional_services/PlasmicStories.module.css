@@ -38,7 +38,8 @@
   width: 100%;
   height: 70vh;
   max-width: 100%;
-  background: url("/plasmic/professional_services/images/unsplash5QT09YIbROkjpg.jpg") top 50% left 50% / cover no-repeat;
+  background: url("https://img.squirrel.dev/692156d08930783017d29708d610ae6b.jpg")
+    top 50% left 50% / cover no-repeat;
   min-width: 0;
   flex-shrink: 0;
   padding: 180px 20px;
