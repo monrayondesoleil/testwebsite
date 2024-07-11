@@ -513,19 +513,3 @@
   color: #05050599;
   flex-shrink: 0;
 }
-.button:global(.__wab_instance) {
-  max-width: 100%;
-  position: relative;
-}
-.svg__kCWvT {
-  position: relative;
-  object-fit: cover;
-  width: auto;
-  height: 1em;
-}
-.svg__i5Z4Y {
-  position: relative;
-  object-fit: cover;
-  width: auto;
-  height: 1em;
-}
