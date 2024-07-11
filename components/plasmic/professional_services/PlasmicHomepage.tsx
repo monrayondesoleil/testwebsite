@@ -673,7 +673,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             displayMinWidth={"0"}
                             displayWidth={"84px"}
                             src={{
-                              src: "/plasmic/professional_services/images/womanTestimonialjpg.jpg",
+                              src: "/plasmic/professional_services/images/_4171Cd4D69B143Ff039D2De3Dc5A94Fejpg.jpg",
                               fullWidth: 800,
                               fullHeight: 913,
                               aspectRatio: undefined
