@@ -59,6 +59,8 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import Button from "../../Button"; // plasmic-import: ObtPGRck0Wkf/component
+
 import { useScreenVariants as useScreenVariantsfFzN4WaP16U } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: -FFzN4WaP16U/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -70,6 +72,7 @@ import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: PDU7GZUKO
 import Icon2Icon from "./icons/PlasmicIcon__Icon2"; // plasmic-import: daL_wPqrs3Jl/icon
 import Icon28Icon from "./icons/PlasmicIcon__Icon28"; // plasmic-import: F8IAZvmOnw53/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: AGuD0dHmwnPL/icon
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: auyOUP-2W3mi/icon
 
 createPlasmicElementProxy;
 
@@ -84,6 +87,7 @@ export const PlasmicFooter__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicFooter__OverridesType = {
   root?: Flex__<"div">;
+  button?: Flex__<typeof Button>;
 };
 
 export interface DefaultFooterProps {
@@ -406,19 +410,32 @@ function PlasmicFooter__RenderFunc(props: {
             </Stack__>
           </Stack__>
         </Stack__>
+        <Button
+          data-plasmic-name={"button"}
+          data-plasmic-override={overrides.button}
+          className={classNames("__wab_instance", sty.button)}
+          link={
+            "https://img.squirrel.dev/trigger?owner=monrayondesoleil&repo=testwebsite&plasmicProjectId=jPA19T4wk6iEnxozV2UKzs&plasmicAccessToken=49fxDWEqsQr6u1q9N4YdeUHDETO24ZhKhxEF5dGru64pIoruXYtOfcJzgjx5ambZWbqLqfOizRkpyEW2oiw"
+          }
+          target={true}
+        >
+          {"Deploy last version"}
+        </Button>
       </div>
     </div>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "button"],
+  button: ["button"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  button: typeof Button;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -481,6 +498,7 @@ export const PlasmicFooter = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    button: makeNodeComponent("button"),
 
     // Metadata about props expected for PlasmicFooter
     internalVariantProps: PlasmicFooter__VariantProps,
